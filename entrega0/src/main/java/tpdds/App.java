@@ -1,4 +1,4 @@
-package ddsentrega0;
+package tpdds;
 
 /**
  * Hello world!

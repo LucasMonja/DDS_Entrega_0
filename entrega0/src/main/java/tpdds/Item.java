@@ -5,15 +5,22 @@ import tpdds.excepciones.ValorItemNegativoCeroException;
 public class Item {
     private Double valor;
     private String nombreArticulo;
+    private Boolean servicio;
 
-    public Item(String nombre, Double precio){
+    public Item(String nombre, Double precio, Boolean servicio){
         this.valor = precio;
         this.nombreArticulo = nombre;
+        this.servicio = servicio;
 
     }
 
     public Double get_precio(){
         return this.valor;
+
+    }
+
+    public Boolean es_servicio(){
+        return this.servicio;
 
     }
 
